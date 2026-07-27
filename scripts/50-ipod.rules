@@ -1,0 +1,1 @@
+SUBSYSTEM=="block", SUBSYSTEMS=="usb", ATTRS{product}=="iPod", ATTRS{manufacturer}=="Apple Inc.", MODE="660", TAG+="uaccess"
